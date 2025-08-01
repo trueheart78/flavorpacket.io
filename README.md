@@ -3,7 +3,7 @@
 Adding some much needed flavor to the journey.
 
 ---
-# ekyll + Tailwind CSS
+# Jekyll + Tailwind CSS
 
 > Minimal Jekyll and Tailwind CSS starter repo without long live-reload render times.
 
