@@ -53,6 +53,7 @@ GEM
     listen (3.9.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
+    logger (1.6.6)
     mercenary (0.4.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
@@ -78,6 +79,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 4)
   jekyll-postcss-v2
+  logger
   webrick (~> 1.7)
 
 BUNDLED WITH
