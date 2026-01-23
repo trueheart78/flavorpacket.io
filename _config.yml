@@ -1,9 +1,9 @@
-url: "https://flavorpacket.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-title: "FlavorPacket.io" # the name of your site, e.g. ACME Corp.
+url: 'https://flavorpacket.io' # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: '' # the subpath of your site, e.g. /blog
+title: 'FlavorPacket.io' # the name of your site, e.g. ACME Corp.
 
 plugins:
-  - jekyll-postcss
+  - jekyll-postcss-v2
 
 sass:
   sourcemap: never
@@ -16,9 +16,10 @@ exclude:
   - bin
   - node_modules
   - package-lock.json
+  - package.json
   - postcss.config.js
+  - tailwind.config.js
   - README.md
-  # - assets/css/tailwind.scss
 
 # files Jekyll should not delete from .site
 keep_files:
