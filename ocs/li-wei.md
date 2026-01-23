@@ -19,7 +19,7 @@ oc:
     - qi-xia-xia.webp
     - sword-swing.png
     - swordmaster.png
-  playlist: https://youtube.com/playlist?list=PLMlFgtTgsv8OznjrOqHscqIlOlPd_CODk&si=V_oKQCZ0LMff5rno
+  playlist: ''
 ---
 
 <p class="m-4">
