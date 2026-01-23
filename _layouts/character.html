@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/tailwind.css" | relative_url }}">
+    <!-- <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}"> -->
+  </head>
+  <body class="min-h-screen flex flex-col">
+    <div>
+      <nav class="flex items-center justify-between p-4 bg-gray-100">
+        <div class="text-lg font-semibold"> FlavorPacket.io Logo </div>
+        <ul class="flex space-x-6">
+          <li><a href="/"> Home </a></li>
+          <li><a href="#"> About </a></li>
+          <li><a href="/ocs/li-wei"> OCs </a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="flex min-h-screen">
+      <aside class="w-64 bg-green-800 text-white p-4">
+        <!-- Sidebar content -->
+        {{ page.oc.name }}<br>
+        [main pic]<br>
+        [age]<br>
+        [vibe]<br>
+        <a href="{{ page.oc.playlist }}" target="_blank" style="text-decoration:underline;cursor:pointer">Playlist</a>
+      </aside>
+      <main class="flex-1 p-6">
+        {{ content }}
+      </main>
+    </div>
+    <footer class="bg-gray-200 p-4 text-center">
+      © 2025 My Site
+    </footer>
+  </body>
+</html>
+

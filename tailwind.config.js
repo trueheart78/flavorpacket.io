@@ -1,13 +1,16 @@
 module.exports = {
-  content:[
+  content: [
     './_includes/**/*.html',
     './_layouts/**/*.html',
     './_posts/*.md',
     './*.html',
   ],
   theme: {
-    extend: {}
+    extend: {},
+  },
+  corePlugins: {
+    aspectRatio: false,
   },
   variants: {},
-  plugins: [],
+  plugins: [require('@tailwindcss/aspect-ratio')],
 }
