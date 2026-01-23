@@ -1,19 +1,21 @@
 ---
 layout: default
 ---
+
 <main class="flex flex-row">
-  <div class="flex min-h-screen">
-  <aside class="w-64 {{ page.oc.bg_color }} text-white p-4">
+  <div class="flex min-h-screen basis-128">
+    <aside class="w-64 {{ page.oc.bg_color }} {{ page.oc.fg_color }} p-4">
       <!-- Sidebar content -->
-      <div class="font-bold">{{ page.oc.name }}</div>
-      <div>[main pic]</div>
+      <div class="font-bold">{{ page.oc.name }} ({{ page.oc.pronouns }})</div>
+      <div><img src="{{ page.oc.image}}" /></div>
       <div>Age: {{ page.oc.age }}</div>
+      <div>Height: {{ page.oc.height }}</div>
       <div>Colors: {{ page.oc.colors }}</div>
-      <div>Vibe:<br>{{ page.oc.vibe }}</div>
-      <a href="{{ page.oc.playlist }}" target="_blank" style="text-decoration:underline;cursor:pointer">Playlist</a>
+      <div>Aesthetics: {{ page.oc.aesthetics }}</div>
+      <div>Vibe: {{ page.oc.vibe }}</div>
+
+      <div>{% include _playlist.html %}</div>
     </aside>
   </div>
-  <div class="flex">
-    {{ content }}
-  </div>
+  <div>{{ content }}<br />{% include _ref_images.html %}</div>
 </main>

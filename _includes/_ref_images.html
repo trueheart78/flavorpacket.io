@@ -1,0 +1,11 @@
+<p class="m-4">
+  <b>References</b><br />
+  {% if page.oc.ref_image_dir %} {% for image in page.oc.ref_images %}
+  <img
+    src="{{ page.oc.ref_image_dir}}{{ image }}"
+    alt=""
+    width="240"
+    class="m-2"
+  />
+  {% endfor %} {% endif %}
+</p>
