@@ -7,7 +7,7 @@ oc:
   fg_color: text-blue-800
   bg_color: bg-yellow-400
   age: 23
-  height: 5'4"
+  height: 5'2"
   colors: Yellows and Pinks
   vibe: Messy Painter Girlie
   aesthetics: Cute and messy

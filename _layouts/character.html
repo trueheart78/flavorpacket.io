@@ -2,12 +2,14 @@
 layout: default
 ---
 
-<main class="flex flex-row">
+<main class="flex flex-row border-y-4 border-purple-500">
   <div class="flex min-h-screen basis-128">
     <aside class="w-64 {{ page.oc.bg_color }} {{ page.oc.fg_color }} p-4">
       <!-- Sidebar content -->
       <div class="font-bold">{{ page.oc.name }} ({{ page.oc.pronouns }})</div>
-      <div><img src="{{ page.oc.image}}" /></div>
+      <div>
+        <img src="{{ page.oc.image}}" alt="Portrait of {{ page.oc.name }}" />
+      </div>
       <div>Age: {{ page.oc.age }}</div>
       <div>Height: {{ page.oc.height }}</div>
       <div>Colors: {{ page.oc.colors }}</div>
