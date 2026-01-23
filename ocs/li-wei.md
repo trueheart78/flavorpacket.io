@@ -4,6 +4,7 @@ layout: character
 oc:
   name: Li Wei
   colors: Green + Light Gold
+  bg_color: bg-green-800
   age: Young Elf
   vibe: TBD
   aesthetics: TBD
