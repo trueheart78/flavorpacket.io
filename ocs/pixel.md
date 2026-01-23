@@ -4,8 +4,8 @@ layout: character
 oc:
   name: Pixel
   pronouns: she/her
-  fg_color: text-blue-800
-  bg_color: bg-yellow-400
+  fg_color: text-pink-500
+  bg_color: bg-yellow-300
   age: 23
   height: 5'2"
   colors: Yellows and Pinks
