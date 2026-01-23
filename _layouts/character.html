@@ -1,33 +1,19 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title>{{ page.title }} | {{ site.title }}</title>
-    <link rel="stylesheet" href="/assets/css/main.css">
-  </head>
-
-  <body class="min-h-screen flex flex-col">
-    {% include nav.html %}
-
-    <main class="flex flex-row">
-      <div class="flex min-h-screen">
-      <aside class="w-64 {{ page.oc.bg_color }} text-white p-4">
-          <!-- Sidebar content -->
-          <div class="font-bold">{{ page.oc.name }}</div>
-          <div>[main pic]</div>
-          <div>Age: {{ page.oc.age }}</div>
-          <div>Colors: {{ page.oc.colors }}</div>
-          <div>Vibe:<br>{{ page.oc.vibe }}</div>
-          <a href="{{ page.oc.playlist }}" target="_blank" style="text-decoration:underline;cursor:pointer">Playlist</a>
-        </aside>
-      </div>
-      <div class="flex">
-        {{ content }}
-      </div>
-    </main>
-
-    {% include footer.html %}
-  </body>
-</html>
-
+---
+layout: default
+---
+<main class="flex flex-row">
+  <div class="flex min-h-screen">
+  <aside class="w-64 {{ page.oc.bg_color }} text-white p-4">
+      <!-- Sidebar content -->
+      <div class="font-bold">{{ page.oc.name }}</div>
+      <div>[main pic]</div>
+      <div>Age: {{ page.oc.age }}</div>
+      <div>Colors: {{ page.oc.colors }}</div>
+      <div>Vibe:<br>{{ page.oc.vibe }}</div>
+      <a href="{{ page.oc.playlist }}" target="_blank" style="text-decoration:underline;cursor:pointer">Playlist</a>
+    </aside>
+  </div>
+  <div class="flex">
+    {{ content }}
+  </div>
+</main>
