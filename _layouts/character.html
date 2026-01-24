@@ -13,11 +13,11 @@ layout: default
       <div>Age: {{ page.oc.age }}</div>
       <div>Height: {{ page.oc.height }}</div>
       <div>Colors: {{ page.oc.colors }}</div>
-      <div>Aesthetics: {{ page.oc.aesthetics }}</div>
       <div>Vibe: {{ page.oc.vibe }}</div>
+      <div>Aesthetics: {{ page.oc.aesthetics }}</div>
 
       <div>{% include _playlist.html %}</div>
     </aside>
   </div>
-  <div>{{ content }}<br />{% include _ref_images.html %}</div>
+  <div>{{ content }}{% include _ref_images.html %}</div>
 </main>

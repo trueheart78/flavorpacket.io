@@ -8,7 +8,7 @@ oc:
   bg_color: bg-yellow-300
   age: 23
   height: 5'2"
-  colors: Yellows and Pinks
+  colors: Yellows, Pinks, and Greens
   vibe: Messy Painter Girlie
   aesthetics: Cute and messy
   image: /assets/images/ocs/pixel.png
@@ -20,8 +20,7 @@ oc:
 ---
 
 <p class="m-4">
-<b>Blurb</b><br>
-Pixel is a 23 year old caricature artist at the carnival, and enjoys making others smile. She has green hair, glasses, sometimes wears a hat, and always has her brush.
+<b>Pixel</b> is a 23 year old caricature artist at the carnival, and enjoys making others smile. She has green hair, glasses, sometimes wears a hat, and always has her brush.
 </p>
 
 <p class="m-4">

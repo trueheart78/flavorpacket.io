@@ -1,11 +1,19 @@
 <p class="m-4">
-  <b>References</b><br />
-  {% if page.oc.ref_image_dir %} {% for image in page.oc.ref_images %}
-  <img
-    src="{{ page.oc.ref_image_dir}}{{ image }}"
-    alt=""
-    width="240"
-    class="m-2"
-  />
-  {% endfor %} {% endif %}
+  <b>Image References</b><a name="image-references"><br />
+
+  {% if page.oc.ref_image_dir %}
+    <div class="col-span-3 grid grid-cols-subgrid gap-4">
+      <div class="grid grid-cols-4">
+      {% for image in page.oc.ref_images %}
+        <div class="mx-3 border-0">
+          <img
+            src="{{ page.oc.ref_image_dir}}{{ image }}"
+            alt=""
+            width="240"
+          />
+        </div>
+      {% endfor %}
+      </div>
+    </div>
+  {% endif %}
 </p>

@@ -19,8 +19,7 @@ oc:
 ---
 
 <p class="m-4">
-<b>Blurb</b><br>
-A monk that loves to hit things. Her fists come in very handy, and she recently acquired a metal quarterstaff, which is causing her enemies a lot of consternation. A menace in disguise, she really doesn't take any shit.
+<b>Roxy</b> is a monk that loves to hit things. Her fists come in very handy, and she recently acquired a metal quarterstaff, which is causing her enemies a lot of consternation. A menace in disguise, she really doesn't take any shit.
 </p>
 
 <p class="m-4">
