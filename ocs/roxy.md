@@ -11,8 +11,8 @@ oc:
   height: 5'6"
   vibe: TBD
   aesthetics: TBD
-  image: /assets/images/ocs/placeholder.png
-  ref_image_dir: /assets/images/ocs/refs/roxy/
+  image: placeholder.png
+  ref_image_dir: ocs/refs/roxy/
   ref_images:
     - fury-fabula-ultima.png
   playlist: https://youtube.com/playlist?list=PLMlFgtTgsv8OznjrOqHscqIlOlPd_CODk&si=V_oKQCZ0LMff5rno

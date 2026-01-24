@@ -8,7 +8,7 @@ layout: default
       <!-- Sidebar content -->
       <div class="font-bold">{{ page.oc.name }} ({{ page.oc.pronouns }})</div>
       <div>
-        <img src="{{ page.oc.image}}" alt="Portrait of {{ page.oc.name }}" />
+        <img src="/assets/images/ocs/{{ page.oc.image}}" alt="Portrait of {{ page.oc.name }}" />
       </div>
       <div>Age: {{ page.oc.age }}</div>
       <div>Height: {{ page.oc.height }}</div>
@@ -19,5 +19,5 @@ layout: default
       <div>{% include _playlist.html %}</div>
     </aside>
   </div>
-  <div>{{ content }}{% include _ref_images.html %}</div>
+  <div>{{ content }}{% include _reference_images.html %}</div>
 </main>

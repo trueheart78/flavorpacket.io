@@ -17,8 +17,8 @@ oc:
     season: Spring, it’s when the forest and the greenery are flush with life.
     animal: The Crane
   hobbies: Food, Xiangqi, and Swordplay.
-  image: /assets/images/ocs/li-wei.png
-  ref_image_dir: /assets/images/ocs/refs/li-wei/
+  image: li-wei.png
+  ref_image_dir: ocs/refs/li-wei/
   ref_images:
     - headshot.png
     - qi-xia-xia-hero.jpg

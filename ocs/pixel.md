@@ -11,8 +11,8 @@ oc:
   colors: Yellows, Pinks, and Greens
   vibe: Messy Painter Girlie
   aesthetics: Cute and messy
-  image: /assets/images/ocs/pixel.png
-  ref_image_dir: /assets/images/ocs/refs/pixel/
+  image: pixel.png
+  ref_image_dir: ocs/refs/pixel/
   ref_images:
     - relm-arrowny.png
   playlist: ''
