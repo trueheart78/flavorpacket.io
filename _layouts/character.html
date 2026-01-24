@@ -1,14 +1,16 @@
 ---
 layout: default
 ---
-
 <main class="flex flex-row border-y-4 border-purple-500">
   <div class="flex min-h-screen basis-128">
     <aside class="w-64 {{ page.oc.bg_color }} {{ page.oc.fg_color }} p-4">
       <!-- Sidebar content -->
       <div class="font-bold">{{ page.oc.name }} ({{ page.oc.pronouns }})</div>
       <div>
-        <img class="rounded-lg" src="/assets/images/ocs/{{ page.oc.image}}" alt="Portrait of {{ page.oc.name }}" />
+        <img class="rounded-lg cursor-pointer"
+          src="/assets/images/ocs/{{ page.oc.image}}"
+          alt="Portrait of {{ page.oc.name }}"
+          onclick="showModal(this.src)"/>
       </div>
       <div>Age: {{ page.oc.age }}</div>
       <div>Height: {{ page.oc.height }}</div>
@@ -16,8 +18,8 @@ layout: default
       <div>Vibe: {{ page.oc.vibe }}</div>
       <div>Aesthetics: {{ page.oc.aesthetics }}</div>
 
-      <div>{% include _playlist.html %}</div>
+      <div>{% include playlist.html %}</div>
     </aside>
   </div>
-  <div>{{ content }}{% include _reference_images.html %}</div>
+  <div>{{ content }}{% include reference_images.html %}</div>
 </main>
