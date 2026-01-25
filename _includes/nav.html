@@ -3,14 +3,12 @@
     <a class="text-amber-300 text-shadow-lg" href="/"> FlavorPacket.io </a>
   </div>
   <ul class="flex space-x-6">
+    {% for oc in site.ocs %}
     <li>
-      <a class="text-amber-300 text-shadow-lg" href="/ocs/li-wei"> Li Wei </a>
+      <a class="text-amber-300 text-shadow-lg" href="/ocs/{{ oc.term }}">
+        {{ oc.name }}
+      </a>
     </li>
-    <li>
-      <a class="text-amber-300 text-shadow-lg" href="/ocs/roxy"> Roxy </a>
-    </li>
-    <li>
-      <a class="text-amber-300 text-shadow-lg" href="/ocs/pixel"> Pixel </a>
-    </li>
+    {% endfor %}
   </ul>
 </nav>

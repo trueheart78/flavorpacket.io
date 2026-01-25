@@ -15,7 +15,7 @@ oc:
   ref_image_dir: ocs/refs/pixel/
   ref_images:
     - relm-arrowny.png
-  playlist: ''
+  playlist: https://youtube.com/playlist?list=PLMlFgtTgsv8NTN6_SqxQ7ld9QRIDqay5x&si=JusWoOOgYuwM96Wa
   piccrew: https://picrew.me/en/image_maker/2321144
 ---
 

@@ -20,12 +20,11 @@ oc:
   image: li-wei.png
   ref_image_dir: ocs/refs/li-wei/
   ref_images:
-    - headshot.png
-    - qi-xia-xia-hero.jpg
     - qi-xia-xia.webp
+    - qi-xia-xia-hero.jpg
     - sword-swing.png
     - swordmaster.png
-  playlist: ''
+  playlist: https://youtube.com/playlist?list=PLMlFgtTgsv8O6YPhf-mVRN3HKtWQs31Wt&si=86kXBEz6cz-83vlb
 ---
 
 <p class="m-4">
