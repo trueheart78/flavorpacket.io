@@ -10,7 +10,7 @@ oc:
   colors: Blues and Pinks
   vibe: ???
   aesthetics: ???
-  fg_color: text-blue-600
-  bg_color: bg-pink-400
+  fg_color: text-pink-300
+  bg_color: bg-blue-600
   playlist: https://youtube.com/playlist?list=PLMlFgtTgsv8M-kjXf19I0syA1VPUjkLMn&si=BAoD0IhsYNdNyW8T
 ---

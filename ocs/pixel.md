@@ -16,7 +16,7 @@ oc:
   ref_images:
     - relm-arrowny.png
   playlist: https://youtube.com/playlist?list=PLMlFgtTgsv8NTN6_SqxQ7ld9QRIDqay5x&si=JusWoOOgYuwM96Wa
-  piccrew: https://picrew.me/en/image_maker/2321144
+  picrew: https://picrew.me/en/image_maker/2321144
 ---
 
 <p class="m-4">

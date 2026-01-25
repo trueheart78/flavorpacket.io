@@ -26,6 +26,10 @@ keep_files:
   - assets/css/tailwind.css
   - assets/css/tailwind.css.map
 
+colors:
+  fg: 'text-amber-300 text-shadow-lg'
+  bg: 'bg-pink-500'
+
 # site-wide content for my OCs
 oc_index:
   astra: 0
