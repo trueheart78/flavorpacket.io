@@ -3,6 +3,7 @@ title: Roxy
 layout: character
 oc:
   name: Roxy
+  term: roxy
   pronouns: she/her
   colors: Vibrant purples, blues, and oranges
   fg_color: text-blue-600
@@ -11,7 +12,6 @@ oc:
   height: 5'6"
   vibe: TBD
   aesthetics: TBD
-  image: placeholder.png
   ref_image_dir: ocs/refs/roxy/
   ref_images:
     - fury-fabula-ultima.png

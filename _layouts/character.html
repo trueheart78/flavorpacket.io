@@ -1,14 +1,15 @@
 ---
 layout: default
 ---
+
 <main class="flex flex-row border-y-4 border-purple-500">
   <div class="flex min-h-screen basis-128">
-    <aside class="w-64 {{ page.oc.bg_color }} {{ page.oc.fg_color }} p-4">
+    <aside class="w-64 p-4 {{ page.oc.bg_color }} {{ page.oc.fg_color }}">
       <!-- Sidebar content -->
       <div class="font-bold">{{ page.oc.name }} ({{ page.oc.pronouns }})</div>
       <div>
         <img class="rounded-lg cursor-pointer"
-          src="/assets/images/ocs/{{ page.oc.image}}"
+          src="/assets/images/ocs/{{ page.oc.term }}.png"
           alt="Portrait of {{ page.oc.name }}"
           onclick="showModal(this.src)"/>
       </div>

@@ -38,19 +38,16 @@ ocs:
   - name: Astra
     term: astra
     pronouns: she/her
-    colors: Pinks and pinks and pinks
     fg_color: text-white
     bg_color: bg-pink-500
   - name: Li Wei
     term: li-wei
     pronouns: she/her
-    colors: Green + Light Gold
     fg_color: text-amber-200
     bg_color: bg-green-800
   - name: Roxy
     term: roxy
     pronouns: she/her
-    colors: Vibrant purples, blues, and oranges
     fg_color: text-blue-600
     bg_color: bg-orange-400
   - name: Pixel
@@ -61,6 +58,5 @@ ocs:
   - name: Prism
     term: prism
     pronouns: she/her
-    colors: Blues and Pinks
     fg_color: text-blue-600
     bg_color: bg-pink-400

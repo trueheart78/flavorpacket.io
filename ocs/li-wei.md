@@ -3,6 +3,7 @@ title: Li Wei
 layout: character
 oc:
   name: Li Wei
+  term: li-wei
   pronouns: she/her
   colors: Green + Light Gold
   fg_color: text-amber-200
@@ -17,7 +18,6 @@ oc:
     season: Spring, it’s when the forest and the greenery are flush with life.
     animal: The Crane
   hobbies: Food, Xiangqi, and Swordplay.
-  image: li-wei.png
   ref_image_dir: ocs/refs/li-wei/
   ref_images:
     - qi-xia-xia.webp

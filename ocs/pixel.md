@@ -3,6 +3,7 @@ title: Pixel
 layout: character
 oc:
   name: Pixel
+  term: pixel
   pronouns: she/her
   fg_color: text-pink-500
   bg_color: bg-yellow-300
@@ -11,7 +12,6 @@ oc:
   colors: Yellows, Pinks, and Greens
   vibe: Messy Painter Girlie
   aesthetics: Cute and messy
-  image: pixel.png
   ref_image_dir: ocs/refs/pixel/
   ref_images:
     - relm-arrowny.png
