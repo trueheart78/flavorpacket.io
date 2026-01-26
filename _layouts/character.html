@@ -16,10 +16,25 @@ layout: default
       <div>Age: {{ page.oc.age }}</div>
       <div>Height: {{ page.oc.height }}</div>
       <div>Colors: {{ page.oc.colors }}</div>
-      <div>Vibe: {{ page.oc.vibe }}</div>
-      <div>Aesthetics: {{ page.oc.aesthetics }}</div>
-
+      <div>Personality: {{ page.oc.personality }}</div>
+      <div>Vibes: {{ page.oc.vibes }}</div>
       <div>{% include playlist.html %}</div>
+      <!-- System + Class Stuff -->
+      <div class="mt-6">System:</div>
+      <div class="ml-3">{{ page.oc.system }}</div>
+      {% if page.oc.system == "Fabula Ultima" %}
+        <div>Classes:</div>
+        {% for class in page.oc.classes %}
+          <div class="ml-3">{{ class }}</div>
+        {% endfor %}
+      {% else %}
+        <div>Class:</div>
+        <div class="ml-3">{{ page.oc.class }}</div>
+      {% endif %}
+      {% if page.oc.subclass %}
+        <div>Subclass:</div>
+        <div class="ml-3">{{ page.oc.subclass }}</div>
+      {% endif %}
     </aside>
   </div>
   <div>{{ content }}{% include reference_images.html %}</div>

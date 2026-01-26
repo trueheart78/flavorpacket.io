@@ -4,15 +4,19 @@ layout: character
 oc:
   name: Pixel
   term: pixel
-  pronouns: she/her
+  pronouns: She/Her
   fg_color: text-pink-500
   bg_color: bg-yellow-300
   age: 23
   height: 5'2"
   colors: Yellows, Pinks, and Greens
-  vibe: Messy Painter Girlie
-  aesthetics: Cute and messy
-  ref_image_dir: ocs/refs/pixel/
+  system: Fabula Ultima
+  classes:
+    - Symbolist +
+    - Commander +
+    - Rogue
+  vibes: Messy Painter Girlie
+  personality: Determined & Happy
   ref_images:
     - relm-arrowny.png
   playlist: https://youtube.com/playlist?list=PLMlFgtTgsv8NTN6_SqxQ7ld9QRIDqay5x&si=JusWoOOgYuwM96Wa

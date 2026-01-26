@@ -4,21 +4,23 @@ layout: character
 oc:
   name: Li Wei
   term: li-wei
-  pronouns: she/her
+  pronouns: She/Her
   colors: Green + Light Gold
+  system: Dungeons & Dragons (2024)
+  class: Paladin
+  subclass: Oath of Vengeance
   fg_color: text-amber-200
   bg_color: bg-green-800
-  age: 92 (young elf)
+  age: 92 (young high elf)
   height: 5'5"
-  vibe: Kind, smart, and reliable
-  aesthetics: Graceful and disciplined
+  personality: Kind, Smart, & Reliable
+  vibes: Graceful & Disciplined
   faves:
     color: Jade Green.
     food: A very exotic dish that’s from a neighboring kingdom.
     season: Spring, it’s when the forest and the greenery are flush with life.
     animal: The Crane
   hobbies: Food, Xiangqi, and Swordplay.
-  ref_image_dir: ocs/refs/li-wei/
   ref_images:
     - qi-xia-xia.webp
     - qi-xia-xia-hero.jpg
