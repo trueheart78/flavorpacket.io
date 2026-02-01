@@ -13,6 +13,8 @@ oc:
   bg_color: bg-green-800
   age: 92 (young high elf)
   height: 5'5"
+  eyes: Green
+  hair: Orange
   personality: Kind, Smart, & Reliable
   vibes: Graceful & Disciplined
   faves:

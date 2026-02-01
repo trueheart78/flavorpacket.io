@@ -13,6 +13,8 @@ oc:
   bg_color: bg-orange-400
   age: Unknown
   height: 5'6"
+  eyes: Green
+  hair: Orange
   vibes: Flowing & Dextrous
   personality: Angry & Punk
   ref_images:

@@ -9,6 +9,8 @@ oc:
   bg_color: bg-yellow-300
   age: 23
   height: 5'2"
+  hair: Green
+  eyes: Light Blue
   colors: Yellows, Pinks, and Greens
   system: Fabula Ultima
   classes:

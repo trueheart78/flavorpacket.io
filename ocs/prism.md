@@ -7,6 +7,8 @@ oc:
   pronouns: She/Her
   age: 29
   height: 5'6"
+  hair: Blue and Pink
+  eyes: Purple
   colors: Blues and Pinks
   system: Fabula Ultima
   classes:

@@ -7,6 +7,8 @@ oc:
   pronouns: She/Her
   age: 27
   height: 5'5"
+  hair: Pink
+  eyes: ???
   colors: Pinks
   system: Thirsty Sword Lesbians
   class: Troubadour
