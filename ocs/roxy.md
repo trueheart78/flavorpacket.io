@@ -20,6 +20,7 @@ oc:
     - big-sing.jpg
     - crushcrushcrush.jpg
     - crimson-curse.webp
+    - when-we-were-young-festival.jpg
   playlist: https://youtube.com/playlist?list=PLMlFgtTgsv8OznjrOqHscqIlOlPd_CODk&si=V_oKQCZ0LMff5rno
 ---
 
