@@ -8,7 +8,7 @@ oc:
   age: 27
   height: 5'5"
   hair: Pink
-  eyes: ???
+  eyes: Blue
   colors: Pinks
   system: Thirsty Sword Lesbians
   class: Troubadour
@@ -18,6 +18,10 @@ oc:
   bg_color: bg-pink-500
   playlist: https://youtube.com/playlist?list=PLMlFgtTgsv8MFS02Cqd7WN5glekMZXaVO&si=fGcQ6hyLiBxSfxuh
   picrew: https://picrew.me/en/image_maker/292231
+  ref_images:
+    - picrew-cute.png
+    - masq-ball-gown-cropped.png
+    - masq-ball-mask.jpg
 ---
 
 <p class="m-4">
