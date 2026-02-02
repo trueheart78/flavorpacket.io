@@ -27,7 +27,7 @@ oc:
 ---
 
 <p class="m-4">
-<b>Roxy</b> loves to hit things. Her fists come in very handy in helping to cause her enemies pain. A menace in disguise, she's tired of taking shit from others.
+<b>Roxy</b> loves to cause her enemies concern. A menace in disguise, she's tired of taking shit from others. Some might even be cocerned she might be approaching her villain era.
 </p>
 
 <p class="m-4">

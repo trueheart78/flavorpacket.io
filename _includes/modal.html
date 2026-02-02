@@ -2,32 +2,100 @@
 <div
   id="modal"
   class="hidden fixed top-0 left-0 z-80 w-screen h-screen bg-black/70 flex justify-center items-center"
-  onclick="closeModal()"
 >
   <!-- The close button -->
   <a
-    class="fixed z-90 top-6 right-8 text-white text-5xl font-bold"
+    class="fixed z-89 top-6 right-8 text-white text-5xl font-bold"
     href="javascript:void(0)"
     onclick="closeModal()"
     >&times;</a
   >
 
+  <!-- Left Arrow -->
+  <a
+    id="modal-left-arrow"
+    class="fixed z-90 left-10 bottom-90 text-white text-5xl font-bold"
+    href="javascript:void(0)"
+    onclick="previousRefImage()"
+    >&#8592;</a
+  >
+
+  <!-- Right Arrow -->
+  <a
+    id="modal-right-arrow"
+    class="fixed z-90 right-10 bottom-90 text-white text-5xl font-bold"
+    href="javascript:void(0)"
+    onclick="nextRefImage()"
+    >&#8594;</a
+  >
+
   <!-- A big image will be displayed here -->
   <img
     id="modal-img"
-    class="max-w-[800px] max-h-[600px] object-cover rounded-lg"
+    class="max-w-[800px] max-h-[600px] object-cover rounded-lg cursor-pointer"
+    onclick="closeModal()"
   />
 </div>
 
 <script>
+  var currIndex = -1
   var modal = document.getElementById('modal')
   var modalImg = document.getElementById('modal-img')
+  var modalLeftArrow = document.getElementById('modal-left-arrow')
+  var modalRightArrow = document.getElementById('modal-right-arrow')
 
   function showModal(src) {
     modal.classList.remove('hidden')
     modalImg.src = src
   }
 
+  function showRefImage(src) {
+    currIndex = refImageIndex(src)
+    toggleModalArrows(currIndex)
+
+    modal.classList.remove('hidden')
+    modalImg.src = refImages[currIndex]
+  }
+
+  function refImageIndex(src) {
+    let index = -1
+    if (src[0] != '/') {
+      let url = new URL(src)
+      src = url.pathname
+    }
+    for (let i = 0; i < refImages.length; i++) {
+      if (refImages[i] == src) {
+        index = i
+        break
+      }
+    }
+    return index
+  }
+
+  function toggleModalArrows(index) {
+    let showLeftArrow = index > 0
+    let showRightArrow = index < refImages.length - 1
+
+    if (showLeftArrow) {
+      modalLeftArrow.classList.remove('hidden')
+    } else {
+      modalLeftArrow.classList.add('hidden')
+    }
+    if (showRightArrow) {
+      modalRightArrow.classList.remove('hidden')
+    } else {
+      modalRightArrow.classList.add('hidden')
+    }
+  }
+
+  function previousRefImage() {
+    console.log(currIndex - 1)
+    showRefImage(refImages[currIndex - 1])
+  }
+  function nextRefImage() {
+    console.log(currIndex + 1)
+    showRefImage(refImages[currIndex + 1])
+  }
   function closeModal() {
     modal.classList.add('hidden')
   }

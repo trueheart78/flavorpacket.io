@@ -2,17 +2,20 @@
   <b>Image References</b><br>
   <div class="col-span-3 grid grid-cols-subgrid gap-4">
     <div class="grid grid-cols-4">
-    {% for image in page.oc.ref_images %}
-      {% capture image_path %}/assets/images/ocs/refs/{{ page.oc.term}}/{{ image }}{% endcapture %}
-      <div class="mt-2 border-0">
-        <img
-           class="rounded-lg cursor-pointer"
-           src="{{ image_path }}"
-           alt=""
-           width="240"
-           onclick="showModal(this.src)">
-      </div>
-    {% endfor %}
+      <!-- setup the image array -->
+      <script>var refImages = []</script>
+      {% for image in page.oc.ref_images %}
+        {% capture image_path %}/assets/images/ocs/refs/{{ page.oc.term}}/{{ image }}{% endcapture %}
+        <!-- capture the image for usage in JS -->
+      <script>refImages.push("{{ image_path }}")</script>
+        <div class="mt-2 border-0">
+          <img
+             class="rounded-lg cursor-pointer max-w-[240px]"
+             src="{{ image_path }}"
+             alt=""
+             onclick="showRefImage(this.src)">
+        </div>
+      {% endfor %}
     </div>
   </div>
 </div>
