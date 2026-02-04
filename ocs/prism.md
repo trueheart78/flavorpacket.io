@@ -32,7 +32,7 @@ oc:
 ---
 
 <p class="m-4">
-<b>Prism</b> a girlie girl, a dancer, and a BEAST with a gun. She seeks vengeance for the destruction of her home planet, Charon.</p>
+<b>Prism</b> a girlie girl, a dancer, and a <i>beast</i> with a gun. She seeks vengeance for the destruction of her home planet, Charon.</p>
 
 <p class="m-4">
 <b>Backstory</b><br>
