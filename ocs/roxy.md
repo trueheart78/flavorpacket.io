@@ -23,6 +23,9 @@ oc:
     - crushcrushcrush.jpg
     - crimson-curse.webp
     - when-we-were-young-festival.jpg
+    - nichole-std.webp
+    - nichole-cute.webp
+    - nichole-tall.webp
   playlist: https://youtube.com/playlist?list=PLMlFgtTgsv8OznjrOqHscqIlOlPd_CODk&si=V_oKQCZ0LMff5rno
 ---
 
