@@ -9,7 +9,7 @@ oc:
   bg_color: bg-yellow-300
   age: 23
   height: 5'2"
-  hair: Green
+  hair: Green or Blonde
   eyes: Light Blue
   colors: Yellows, Pinks, and Greens
   system: Fabula Ultima
@@ -19,10 +19,13 @@ oc:
     - Rogue
   vibes: Messy Painter Girlie
   personality: Determined & Happy
+  misc: Sweater Girlie
   ref_images:
+    - picrew-cutie.png
     - relm-arrowny.png
   playlist: https://youtube.com/playlist?list=PLMlFgtTgsv8NTN6_SqxQ7ld9QRIDqay5x&si=JusWoOOgYuwM96Wa
   picrew: https://picrew.me/en/image_maker/2321144
+  picrew2: https://picrew.me/en/image_maker/2286007
 ---
 
 <p class="m-4">
