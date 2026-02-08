@@ -19,8 +19,10 @@ oc:
   playlist: https://youtube.com/playlist?list=PLMlFgtTgsv8MFS02Cqd7WN5glekMZXaVO&si=fGcQ6hyLiBxSfxuh
   picrew: https://picrew.me/en/image_maker/292231
   ref_images:
-    - picrew-cute.png
+    - avril-young-01.jpg
     - masq-ball-gown-cropped.png
+    - picrew-cute.png
+    - masq-ball-suit.webp
     - masq-ball-mask.jpg
 ---
 
@@ -41,6 +43,7 @@ The bears had a penchant for music and helped a young girl reach for her dreams:
   <i>To be continued...</i>
 </p>
 <!--
+Music / Band Ideas: Hole
 <p class="m-4"></p>
 <p class="m-4"></p>
 -->
