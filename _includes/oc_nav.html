@@ -1,0 +1,11 @@
+<nav class="flex items-center justify-between pb-1 pl-4 {{ site.colors.bg }}">
+ <ul class="flex space-x-6">
+    {% for oc in site.ocs %}
+    <li>
+      <a class="{{ site.colors.fg }}" href="/ocs/{{ oc.term }}">
+        {{ oc.name }}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</nav>
