@@ -25,10 +25,22 @@ oc:
 ---
 
 <p class="m-4">
-<b>Astra</b> is the lead singer of the band <b>G3</b>, currently considering a solo career. She doesn't know who her parents are, but those three bears? They're family.
+<b>Astra</b> was the lead singer of the band <b>G3</b>, currently embarking on a solo career. She doesn't know who her parents are, but those three bears? They're family.
 </p>
 
 <p class="m-4">
 <b>Backstory</b><br>
-...
+Unaware of her parents, she grew up under the watchful eye of her "aunt". At the age of 13, she ran away from home and found the home of her soon-to-be found family of the three bears.
 </p>
+
+<p class="m-4">
+The bears had a penchant for music and helped a young girl reach for her dreams: to be a punk rock singer and songwriter.
+</p>
+
+<p class="m-4">
+  <i>To be continued...</i>
+</p>
+<!--
+<p class="m-4"></p>
+<p class="m-4"></p>
+-->
