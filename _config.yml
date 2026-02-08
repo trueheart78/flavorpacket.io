@@ -1,6 +1,6 @@
-url: 'https://flavorpacket.io' # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: '' # the subpath of your site, e.g. /blog
-title: 'FlavorPacket.io' # the name of your site, e.g. ACME Corp.
+url: 'https://flavorpacket.io' # the base hostname & protocol
+baseurl: '' # subpath of your site, e.g. /blog
+title: 'FlavorPacket.io'
 
 plugins:
   - jekyll-postcss-v2
