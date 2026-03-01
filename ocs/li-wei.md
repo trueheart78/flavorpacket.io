@@ -44,6 +44,11 @@ She was raised in Inbal-ya, growing up with her family, near the forest. Her par
 </p><p class="m-4">
 After years of plying herself, her sword, and her mind, her officer and mentor came to her with some quite surprising news: the Emperor was requesting her to become a guardian and guide to the young Garaile.
 </p>
+
+<p class="m-4">
+<b class="text-xl" id="get-to-know-me">Get to Know {{ page.oc.name }}</b><br>
+</p>
+
 <p class="m-4">
 <b>What motivates them?</b><br>
 She is fighting to preserve the Mandate of Heaven from internal rot.
