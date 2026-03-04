@@ -5,11 +5,13 @@ oc:
   name: Prism
   term: prism
   pronouns: She/Her
-  age: 29
+  age: 27
   height: 5'6"
   hair: Blue and Pink
   eyes: Purple
   colors: Blues and Pinks
+  tatoos:
+    - Angel (right shoulder blade)
   system: Fabula Ultima
   classes:
     - Dancer +
@@ -36,10 +38,10 @@ oc:
 
 <p class="m-4">
 <b>Backstory</b><br>
-Born into one of the most notable families on the now-dead planet Charon, and was raised to be graceful and lethal. She grew up a studious dancer and exceptionally trained marksman.
+Born into one of the most notable families on the now-dead planet Charon, and raised to be graceful and lethal. She grew up a studious dancer and exceptionally trained marksman.
 </p>
 <p class="m-4">
-While off-planet to take part in a motorcycle race with her new bike, her planet was destroyed. Upon finishing the race, having left many entrants in the dust (and hospital), her childhood friend Jane and her received news of their destroyed world.
+While off-planet to take part in a motorcycle race with her new bike <i>"Fortune"</i>, her planet was destroyed. Upon finishing the race, having left many entrants in the dust (and hospital), her childhood friend Jane and her returned home to their newly desolate world.
 </p>
 <p class="m-4">
 Now, her sights are on vengeance, and vengeance only.
