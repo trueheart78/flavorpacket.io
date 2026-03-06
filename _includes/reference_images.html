@@ -2,8 +2,9 @@
   <b class="text-xl">Image References</b><br>
   <div class="col-span-3 grid grid-cols-subgrid gap-4">
     <div class="grid grid-cols-2 md:grid-cols-4">
-      <!-- setup the image array -->
-      <script>var refImages = []</script>
+      <!-- setup the image array with the profile image in it -->
+      {% capture profile_image_path %}/assets/images/ocs/{{ page.oc.term }}.png{% endcapture %}
+      <script>var refImages = ["{{ profile_image_path }}"]</script>
       {% for image in page.oc.ref_images %}
         {% capture image_path %}/assets/images/ocs/refs/{{ page.oc.term}}/{{ image }}{% endcapture %}
         <!-- capture the image for usage in JS -->
