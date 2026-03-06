@@ -14,7 +14,7 @@
   <!-- Left Arrow -->
   <a
     id="modal-left-arrow"
-    class="fixed z-90 left-10 bottom-90 text-white text-5xl font-bold"
+    class="fixed z-90 left-4 top-1/2 -translate-y-1/2 text-white text-4xl font-bold"
     href="javascript:void(0)"
     onclick="previousRefImage()"
     >&#8592;</a
@@ -23,7 +23,7 @@
   <!-- Right Arrow -->
   <a
     id="modal-right-arrow"
-    class="fixed z-90 right-10 bottom-90 text-white text-5xl font-bold"
+    class="fixed z-90 right-4 top-1/2 -translate-y-1/2 text-white text-4xl font-bold"
     href="javascript:void(0)"
     onclick="nextRefImage()"
     >&#8594;</a
@@ -39,12 +39,24 @@
 </div>
 
 <script>
+  // Modal image setup
   var currIndex = -1
   var modal = document.getElementById('modal')
   var modalImg = document.getElementById('modal-img')
   var modalLeftArrow = document.getElementById('modal-left-arrow')
   var modalRightArrow = document.getElementById('modal-right-arrow')
 
+  // Touchscreen support
+  var touchStartX = 0
+  modal.addEventListener('touchstart', (e) => {
+    touchStartX = e.touches[0].clientX
+  })
+  modal.addEventListener('touchend', (e) => {
+    const diff = touchStartX - e.changedTouches[0].clientX
+    if (Math.abs(diff) > 50) diff > 0 ? nextRefImage() : previousRefImage()
+  })
+
+  // Modal fns
   function showModal(src) {
     modal.classList.remove('hidden')
     modalImg.src = src
