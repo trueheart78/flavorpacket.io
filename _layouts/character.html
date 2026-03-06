@@ -4,9 +4,9 @@ layout: default
 
 {% include oc_nav.html %}
 
-<main class="flex flex-row border-y-4 border-amber-300">
-  <div class="flex min-h-screen basis-128">
-    <aside class="w-64 p-4 {{ page.oc.bg_color }} {{ page.oc.fg_color }}">
+<main class="flex flex-col md:flex-row border-y-4 border-amber-300">
+  <div class="flex min-h-screen md:basis-128">
+    <aside class="w-full md:w-64 p-4 {{ page.oc.bg_color }} {{ page.oc.fg_color }}">
       <!-- Sidebar content -->
       <div class="font-bold">{{ page.oc.name }} ({{ page.oc.pronouns }})</div>
       <div>
