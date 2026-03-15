@@ -1,6 +1,6 @@
 ---
 title: Li Wei
-description: 'A master swordswoman who loves exotic food.'
+description: 'A master swordswoman that is in love with exotic food.'
 image: /assets/images/ocs/li-wei.png
 layout: character
 oc:
