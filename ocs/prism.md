@@ -1,7 +1,7 @@
 ---
 title: Prism
 description: 'A gun-fu girlie on a quest for vengeance.'
-image: /assets/ocs/prism.png
+image: /assets/images/ocs/prism.png
 layout: character
 oc:
   name: Prism

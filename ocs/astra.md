@@ -1,7 +1,7 @@
 ---
 title: Astra
 description: 'A punk rock singer looking for love as she starts her solo career.'
-image: /assets/ocs/astra.png
+image: /assets/images/ocs/astra.png
 layout: character
 oc:
   name: Astra
