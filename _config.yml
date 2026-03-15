@@ -1,9 +1,16 @@
 url: 'https://flavorpacket.io' # the base hostname & protocol
 baseurl: '' # subpath of your site, e.g. /blog
 title: 'FlavorPacket.io'
+logo: /assets/images/logo.png
+defaults:
+  - scope:
+      path: ''
+    values:
+      image: /assets/images/logo.png
 
 plugins:
   - jekyll-postcss-v2
+  - jekyll-seo-tag
 
 sass:
   sourcemap: never

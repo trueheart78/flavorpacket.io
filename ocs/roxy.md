@@ -1,5 +1,7 @@
 ---
 title: Roxy
+description: 'A fiery monk who is a stranger in the body she inhabits.'
+image: /assets/ocs/roxy.png
 layout: character
 oc:
   name: Roxy

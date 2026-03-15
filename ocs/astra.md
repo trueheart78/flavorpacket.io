@@ -1,5 +1,7 @@
 ---
 title: Astra
+description: 'A punk rock singer looking for love as she starts her solo career.'
+image: /assets/ocs/astra.png
 layout: character
 oc:
   name: Astra
@@ -32,7 +34,7 @@ oc:
 
 <p class="m-4">
 <b>Backstory</b><br>
-Unaware of her parents, she grew up under the watchful eye of her aunt. At the age of 13, she ran away from home and found the home of her soon-to-be found family of the three bears.
+Unaware of her parents, she grew up under the watchful eye of her aunt. At the age of 13, she ran away from home and found the abode of her soon-to-be found family of the three bears.
 </p>
 
 <p class="m-4">

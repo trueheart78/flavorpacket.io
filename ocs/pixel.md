@@ -1,5 +1,7 @@
 ---
 title: Pixel
+description: 'A naive painter girlie that loves to make others smile.'
+image: /assets/ocs/pixel.png
 layout: character
 oc:
   name: Pixel

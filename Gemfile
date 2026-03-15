@@ -3,6 +3,7 @@
 source 'https://rubygems.org'
 
 gem 'jekyll', '~> 4'
+gem 'jekyll-seo-tag', '< 3.0'
 gem 'logger'
 gem 'webrick', '~> 1.7'
 

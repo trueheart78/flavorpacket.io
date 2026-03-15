@@ -1,6 +1,8 @@
 ---
-layout: default
 title: OCs
+description: 'Original characters, lore, and more.'
+image: /assets/ocs/placeholder.png
+layout: default
 ---
 
 <main class="min-h-screen bg-white text-black">

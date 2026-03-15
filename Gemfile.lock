@@ -42,6 +42,8 @@ GEM
     jekyll-postcss-v2 (1.0.2)
     jekyll-sass-converter (3.1.0)
       sass-embedded (~> 1.75)
+    jekyll-seo-tag (2.8.0)
+      jekyll (>= 3.8, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     json (2.13.2)
@@ -79,6 +81,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 4)
   jekyll-postcss-v2
+  jekyll-seo-tag (< 3.0)
   logger
   webrick (~> 1.7)
 
