@@ -31,7 +31,7 @@ oc:
     - crouching-tiger-01.jpg
     - crouching-tiger-02.jpg
     - qi-xia-xia.webp
-    - swordmaster.png
+      #    - swordmaster.png
   playlist: https://youtube.com/playlist?list=PLMlFgtTgsv8O6YPhf-mVRN3HKtWQs31Wt&si=86kXBEz6cz-83vlb
 ---
 
