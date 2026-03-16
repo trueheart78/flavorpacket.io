@@ -35,7 +35,7 @@
     alt=""
     class="max-w-[90vw] max-h-[90vh] object-contain rounded-lg cursor-pointer"
     onclick="closeModal()"
->
+  />
 </div>
 
 <script>
@@ -57,11 +57,6 @@
   })
 
   // Modal fns
-  function showModal(src) {
-    modal.classList.remove('hidden')
-    modalImg.src = src
-  }
-
   function showRefImage(src) {
     currIndex = refImageIndex(src)
     toggleModalArrows(currIndex)
@@ -85,16 +80,21 @@
     return index
   }
 
-  function toggleModalArrows(index) {
-    let showLeftArrow = index > 0
-    let showRightArrow = index < refImages.length - 1
+  function showLeftModalArrow(index) {
+    return index > 0
+  }
 
-    if (showLeftArrow) {
+  function showRightModalArrow(index) {
+    return index < refImages.length - 1
+  }
+
+  function toggleModalArrows(index) {
+    if (showLeftModalArrow(index)) {
       modalLeftArrow.classList.remove('hidden')
     } else {
       modalLeftArrow.classList.add('hidden')
     }
-    if (showRightArrow) {
+    if (showRightModalArrow(index)) {
       modalRightArrow.classList.remove('hidden')
     } else {
       modalRightArrow.classList.add('hidden')
@@ -102,11 +102,11 @@
   }
 
   function previousRefImage() {
-    console.log(currIndex - 1)
+    //console.log(currIndex - 1)
     showRefImage(refImages[currIndex - 1])
   }
   function nextRefImage() {
-    console.log(currIndex + 1)
+    //console.log(currIndex + 1)
     showRefImage(refImages[currIndex + 1])
   }
   function closeModal() {
