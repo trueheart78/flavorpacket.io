@@ -1,7 +1,7 @@
 ---
 title: OCs
 description: 'Original characters, lore, and more.'
-image: /assets/ocs/placeholder.png
+image: /assets/images/ocs/placeholder.png
 layout: default
 ---
 
