@@ -22,7 +22,7 @@ oc:
   vibes: TBD
   personality: TBD
   race: Human
-  misc: ???
+  misc: Golden Hair Vines
   picrew: https://picrew.me/en/image_maker/2684731
 ---
 
