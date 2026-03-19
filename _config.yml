@@ -40,10 +40,11 @@ colors:
 # site-wide content for my OCs
 oc_index:
   astra: 0
-  li-wei: 1
-  roxy: 2
+  hattie: 1
+  li-wei: 2
   pixel: 3
   prism: 4
+  roxy: 5
 
 ocs:
   - name: Astra
@@ -51,16 +52,16 @@ ocs:
     pronouns: She/Her
     fg_color: text-white
     bg_color: bg-pink-500
+  - name: Hattie
+    term: hattie
+    pronouns: She/Her
+    fg_color: bg-yellow-300
+    bg_color: text-pink-500
   - name: Li Wei
     term: li-wei
     pronouns: She/Her
     fg_color: text-amber-200
     bg_color: bg-green-800
-  - name: Roxy
-    term: roxy
-    pronouns: She/Her
-    fg_color: text-blue-600
-    bg_color: bg-orange-400
   - name: Pixel
     term: pixel
     pronouns: She/Her
@@ -71,3 +72,8 @@ ocs:
     pronouns: She/Her
     fg_color: text-blue-600
     bg_color: bg-pink-400
+  - name: Roxy
+    term: roxy
+    pronouns: She/Her
+    fg_color: text-blue-600
+    bg_color: bg-orange-400
