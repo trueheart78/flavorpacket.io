@@ -11,6 +11,7 @@ oc:
   system: Dungeons & Dragons (2024)
   class: Paladin
   subclass: Oath of Vengeance
+  build: Master Swordsman
   fg_color: text-amber-200
   bg_color: bg-green-800
   age: 92 (young high elf)

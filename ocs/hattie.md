@@ -15,6 +15,7 @@ oc:
   eyes: Blue
   colors: Yellow and Pinks
   system: Fabula Ultima
+  build: Valkyrie
   classes:
     - Weaponmaster +
     - Elementalist +

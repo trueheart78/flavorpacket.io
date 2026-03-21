@@ -6,7 +6,7 @@ layout: default
 
 <main class="flex flex-col md:flex-row border-y-4 border-amber-300">
   <div class="flex min-h-screen md:basis-128">
-    <aside class="w-full md:w-64 p-4 {{ page.oc.bg_color }} {{ page.oc.fg_color }}">
+    <aside class="w-full md:w-64 pt-1 px-3 {{ page.oc.bg_color }} {{ page.oc.fg_color }}">
       <!-- Sidebar content -->
       <div class="font-bold">{{ page.oc.name }} ({{ page.oc.pronouns }})</div>
       <div>
@@ -19,14 +19,14 @@ layout: default
       <div>Age: {{ page.oc.age }}</div>
       <div>Height: {{ page.oc.height }}</div>
       <div>Hair: {{ page.oc.hair }}</div>
-      <div>Eyes: {{ page.oc.eyes }}</div>
+      <div class="pb-1">Eyes: {{ page.oc.eyes }}</div>
       <!-- Personality + Vibes + Colors -->
-      <div class="mt-6">Colors: {{ page.oc.colors }}</div>
+      <div class="pt-1 border-t-2">Colors: {{ page.oc.colors }}</div>
       <div>Personality: {{ page.oc.personality }}</div>
       <div>Vibes: {{ page.oc.vibes }}</div>
-      <div>{% include playlist.html %}</div>
+      <div class="pb-1">{% include playlist.html %}</div>
       <!-- System + Class Stuff -->
-      <div class="mt-6">System:</div>
+      <div class="pt-1 border-t-2">System:</div>
       <div class="ml-3">{{ page.oc.system }}</div>
       {% if page.oc.system == "Fabula Ultima" %}
         <div>Classes:</div>
@@ -40,6 +40,10 @@ layout: default
       {% if page.oc.subclass %}
         <div>Subclass:</div>
         <div class="ml-3">{{ page.oc.subclass }}</div>
+      {% endif %}
+      {% if page.oc.build %}
+        <div>Build:</div>
+        <div class="ml-3">{{ page.oc.build }}</div>
       {% endif %}
     </aside>
   </div>
