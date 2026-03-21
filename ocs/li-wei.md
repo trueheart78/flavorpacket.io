@@ -33,6 +33,9 @@ oc:
     - crouching-tiger-02.jpg
     - qi-xia-xia.webp
       #    - swordmaster.png
+  inspiration:
+    actress: Qi Xia Xia (Consort Wei, Road to Empress)
+    link: https://www.themoviedb.org/person/3743026-qi-xia-xia?language=en-US
   playlist: https://youtube.com/playlist?list=PLMlFgtTgsv8O6YPhf-mVRN3HKtWQs31Wt&si=86kXBEz6cz-83vlb
 ---
 
