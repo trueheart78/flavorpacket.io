@@ -27,15 +27,15 @@ oc:
   picrew: https://picrew.me/en/image_maker/2684731
 ---
 
-<p class="m-4">
+<p class="p-primary">
 <b>Hattie</b> is ... TBD</p>
 
-<p class="m-4">
+<p class="p-primary">
 <b>Memory One</b><br>
 Her first role as an actress, side-character, ended up on the cutting room floor.<br>
 </p>
 
-<p class="m-4">
+<p class="p-primary">
 <b>Memory Two</b><br>
 She's in a theatre and saw herself onscreen. Small role, big face on screen.
 </p>

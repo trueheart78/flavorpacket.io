@@ -31,15 +31,15 @@ oc:
   playlist: https://youtube.com/playlist?list=PLMlFgtTgsv8OznjrOqHscqIlOlPd_CODk&si=V_oKQCZ0LMff5rno
 ---
 
-<p class="m-4">
+<p class="p-primary">
 <b>Roxy</b> loves to cause her enemies concern. A menace in disguise, she's tired of taking shit from others. Some might even be cocerned she might be approaching her villain era.
 </p>
 
-<p class="m-4">
+<p class="p-primary">
 <b>Backstory</b><br>
 A stranger in the human body she inhabits, for a handful of years now. She took it over from its owner when escaping her dying realm, and evicted its host. She's not proud of it, but she'd do it again in a heartbeat.
-</p><p class="m-4">
+</p><p class="p-primary">
 The body's original owner was named "Jade", hence why her first jacket had the nametage crossed out. She wore that until she began living for herself.
-</p><p class="m-4">
+</p><p class="p-primary">
 Recently, she's come into her own. She's become aware of the power this body already contained, and in her control, she takes it further than anyone expects.
 </p>

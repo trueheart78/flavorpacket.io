@@ -7,3 +7,47 @@
 }
 
 @config "../../../tailwind.config.js";
+
+body {
+  @apply min-h-screen flex flex-col;
+}
+.site-nav {
+  @apply flex items-center justify-between p-4;
+}
+.site-footer {
+  @apply p-4 text-center;
+}
+.nav-character {
+  @apply flex items-center justify-between pb-1 pl-4;
+}
+.ul-character {
+  @apply flex flex-wrap gap-y-2 space-x-6;
+}
+.main-character {
+  @apply flex flex-col md:flex-row border-y-4 border-amber-300;
+}
+.div-character-sidebar {
+  @apply flex min-h-screen md:basis-128;
+}
+.aside-character {
+  @apply w-full md:w-64 pt-1 px-3;
+}
+
+/** Modal **/
+.modal-close-button {
+  @apply fixed z-89 top-6 right-8 text-white text-5xl font-bold;
+}
+.modal-left-arrow {
+  @apply fixed z-90 left-4 top-1/2 -translate-y-1/2 text-white text-4xl font-bold;
+}
+.modal-right-arrow {
+  @apply fixed z-90 right-4 top-1/2 -translate-y-1/2 text-white text-4xl font-bold;
+}
+.modal-image {
+  @apply max-w-[90vw] max-h-[90vh] object-contain rounded-lg cursor-pointer;
+}
+
+/** Text **/
+.p-primary {
+  @apply m-4;
+}

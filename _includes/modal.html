@@ -4,17 +4,14 @@
   class="hidden fixed top-0 left-0 z-80 w-screen h-screen bg-black/70 flex justify-center items-center"
 >
   <!-- The close button -->
-  <a
-    class="fixed z-89 top-6 right-8 text-white text-5xl font-bold"
-    href="javascript:void(0)"
-    onclick="closeModal()"
+  <a class="modal-close-button" href="javascript:void(0)" onclick="closeModal()"
     >&times;</a
   >
 
   <!-- Left Arrow -->
   <a
     id="modal-left-arrow"
-    class="fixed z-90 left-4 top-1/2 -translate-y-1/2 text-white text-4xl font-bold"
+    class="modal-left-arrow"
     href="javascript:void(0)"
     onclick="previousRefImage()"
     >&#8592;</a
@@ -23,26 +20,21 @@
   <!-- Right Arrow -->
   <a
     id="modal-right-arrow"
-    class="fixed z-90 right-4 top-1/2 -translate-y-1/2 text-white text-4xl font-bold"
+    class="modal-right-arrow"
     href="javascript:void(0)"
     onclick="nextRefImage()"
     >&#8594;</a
   >
 
   <!-- A big image will be displayed here -->
-  <img
-    id="modal-img"
-    alt=""
-    class="max-w-[90vw] max-h-[90vh] object-contain rounded-lg cursor-pointer"
-    onclick="closeModal()"
-  />
+  <img id="modal-image" alt="" class="modal-image" onclick="closeModal()" />
 </div>
 
 <script>
   // Modal image setup
   var currIndex = -1
   var modal = document.getElementById('modal')
-  var modalImg = document.getElementById('modal-img')
+  var modalImage = document.getElementById('modal-image')
   var modalLeftArrow = document.getElementById('modal-left-arrow')
   var modalRightArrow = document.getElementById('modal-right-arrow')
 
@@ -62,7 +54,7 @@
     toggleModalArrows(currIndex)
 
     modal.classList.remove('hidden')
-    modalImg.src = refImages[currIndex]
+    modalImage.src = refImages[currIndex]
   }
 
   function refImageIndex(src) {

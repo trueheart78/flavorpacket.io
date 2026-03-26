@@ -35,16 +35,16 @@ oc:
   playlist: https://youtube.com/playlist?list=PLMlFgtTgsv8M-kjXf19I0syA1VPUjkLMn&si=BAoD0IhsYNdNyW8T
 ---
 
-<p class="m-4">
+<p class="p-primary">
 <b>Prism</b> is a girlie girl, a dancer, and a <i>beast</i> with a gun. She seeks vengeance for the destruction of her home planet, Charon.</p>
 
-<p class="m-4">
+<p class="p-primary">
 <b>Backstory</b><br>
 Born into one of the most notable families on the now-dead planet Charon, and raised to be graceful and lethal. She grew up a studious dancer and exceptionally trained marksman.
 </p>
-<p class="m-4">
+<p class="p-primary">
 While off-planet to take part in a motorcycle race with her new bike <i>"Fortune"</i>, her planet was destroyed. Upon finishing the race, having left many entrants in the dust (and hospital), her childhood friend Jane and her returned home to their newly desolate world.
 </p>
-<p class="m-4">
+<p class="p-primary">
 Now, her sights are on vengeance, and vengeance only.
 </p>
