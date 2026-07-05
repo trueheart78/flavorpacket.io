@@ -28,7 +28,12 @@ oc:
 ---
 
 <p class="p-primary">
-<b>Hattie</b> is ... TBD</p>
+<b>Hattie</b> sees herself as a <b>Shining Protector of Light 💫</b></p>
+
+<p class="p-primary">
+<b>Backstory</b><br>
+<i>TBD<i>
+</p>
 
 <p class="p-primary">
 <b>Memory One</b><br>

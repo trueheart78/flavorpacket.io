@@ -24,6 +24,7 @@ oc:
   race: Human
   misc: Sweater Girlie
   ref_images:
+    - pink-and-yellow.png
     - picrew-cutie.png
     - relm-arrowny.png
   playlist: https://youtube.com/playlist?list=PLMlFgtTgsv8NTN6_SqxQ7ld9QRIDqay5x&si=JusWoOOgYuwM96Wa
