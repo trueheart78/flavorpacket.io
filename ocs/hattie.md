@@ -32,7 +32,7 @@ oc:
 
 <p class="p-primary">
 <b>Backstory</b><br>
-<i>TBD<i>
+<i>TBD</i>
 </p>
 
 <p class="p-primary">
