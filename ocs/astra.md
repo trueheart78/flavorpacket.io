@@ -21,11 +21,12 @@ oc:
   playlist: https://youtube.com/playlist?list=PLMlFgtTgsv8MFS02Cqd7WN5glekMZXaVO&si=fGcQ6hyLiBxSfxuh
   picrew: https://picrew.me/en/image_maker/292231
   ref_images:
-    - avril-young-01.jpg
-    - masq-ball-gown-cropped.png
     - picrew-cute.png
+    - picrew-fancy.png
     - masq-ball-suit.webp
     - masq-ball-mask.jpg
+    - avril-young-01.jpg
+    - masq-ball-gown-cropped.png
 ---
 
 <p class="p-primary">
