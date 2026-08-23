@@ -13,7 +13,7 @@ oc:
   eyes: Blue
   colors: Pinks
   system: Thirsty Sword Lesbians
-  class: Troubadour
+  class: Nature Witch
   vibes: Creative & Graceful
   personality: Kind & Caring
   fg_color: text-amber-200
