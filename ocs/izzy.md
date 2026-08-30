@@ -27,7 +27,7 @@ oc:
 ---
 
 <p class="p-primary">
-<b>Isoline Clare</b> (aka <b>Izzy</b> is a dancer at a local club, alongside her mentor, Kitty.
+<b>Isoline Clare</b> (aka <b>Izzy</b>) is a dancer at a local club, alongside her mentor, Kitty.
 </p>
 
 <p class="p-primary">
