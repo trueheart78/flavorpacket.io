@@ -27,9 +27,12 @@ oc:
 ---
 
 <p class="p-primary">
-<b>Izzy</b></p>
+<b>Isoline Clare</b> (aka <b>Izzy</b> is a dancer at a local club, alongside her mentor, Kitty.
+</p>
 
 <p class="p-primary">
 <b>Backstory</b><br>
-<i>TBD</i>
+After aging out of the orphanage at age thirteen, Izzy lived on the streets. A skilled actress and dancer named Kitty saw her begging, and noticing something in her, took the young girl under her wing. Five years later, Izzy would take the stage alongside Kitty, as <b>Goldleaf</b>.</p>
+<p class="p-primary">
+When Izzy isn't dancing to make ends meet, she's a friendly girl. She enjoys sewing, taking in shows at the theatre, and pastries.
 </p>
