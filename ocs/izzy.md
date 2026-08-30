@@ -10,7 +10,7 @@ oc:
   bg_color: bg-cyan-200
   fg_color: text-slate-600
   age: 24
-  height: 5'5"
+  height: 5'2"
   hair: Ash Blonde
   eyes: Steel Blue
   colors: Magenta, Yellow, and Cyan
