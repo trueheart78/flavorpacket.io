@@ -15,7 +15,7 @@ oc:
   eyes: Steel Blue
   colors: Cyan and Silver
   system: Fabula Ultima
-  build: Ninja
+  # build: Ninja
   classes:
     - Dancer +
     - Rogue
