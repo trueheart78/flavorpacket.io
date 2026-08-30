@@ -41,10 +41,11 @@ colors:
 oc_index:
   astra: 0
   hattie: 1
-  li-wei: 2
-  pixel: 3
-  prism: 4
-  roxy: 5
+  izzy: 2
+  li-wei: 3
+  pixel: 4
+  prism: 5
+  roxy: 6
 
 ocs:
   - name: Astra
@@ -57,6 +58,11 @@ ocs:
     pronouns: She/Her
     fg_color: bg-yellow-300
     bg_color: text-pink-500
+  - name: Izzy
+    term: izzy
+    pronouns: She/Her
+    fg_color: text-slate-600
+    bg_color: bg-cyan-200
   - name: Li Wei
     term: li-wei
     pronouns: She/Her
