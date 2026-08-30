@@ -13,7 +13,7 @@ oc:
   height: 5'2"
   hair: Ash Blonde
   eyes: Steel Blue
-  colors: Magenta, Yellow, and Cyan
+  colors: Cyan, Yellow, and Magenta
   system: Fabula Ultima
   build: Ninja
   classes:
