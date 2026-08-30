@@ -19,8 +19,8 @@ oc:
   classes:
     - Dancer +
     - Rogue
-  vibes: TBD
-  personality: TBD
+  vibes: Graceful
+  personality: Demure
   race: Human
   misc: N/A
   picrew: https://picrew.me/en/image_maker/2023406
