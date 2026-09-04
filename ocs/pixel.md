@@ -17,8 +17,8 @@ oc:
   system: Fabula Ultima
   classes:
     - Symbolist +
-    - Commander +
-    - Rogue
+    - Spiritist +
+    - Entropist
   vibes: Messy Painter Girlie
   personality: Determined & Happy
   race: Human
