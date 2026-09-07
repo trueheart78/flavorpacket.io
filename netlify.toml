@@ -2,3 +2,9 @@
   for = "/*" # configure the correct paths here
   [headers.values]
     access-control-allow-origin = "*" 
+
+[[redirects]]
+  from = "/*"
+  to = "/"
+  status = 404
+
