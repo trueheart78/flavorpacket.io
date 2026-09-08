@@ -5,6 +5,12 @@
 
 [[redirects]]
   from = "/*"
-  to = "/"
-  status = 301
+  to = "/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/:subfolder/*"
+  to = "/index.html"
+  status = 404
   force = true
