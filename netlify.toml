@@ -6,5 +6,5 @@
 [[redirects]]
   from = "/*"
   to = "/"
-  status = 404
-
+  status = 301
+  force = true
